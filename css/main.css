@@ -29,13 +29,27 @@
 	 font-size: 18px;
  }
   
-.col-sm-4 card {
-	margin: 10px;
-}
 
 .col-sm-4 p {
 	color: black;
 	padding: 10px;
+}
+
+.btnproject {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+
+.card {
+	height: 400px;
+}
+ 
+.card-img-top {
+    height: 100px;
 }
  
 .container {
