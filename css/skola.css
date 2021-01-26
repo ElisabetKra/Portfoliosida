@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-image: 'img/night.jpg';
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-color: auto;
+	font-family: 'Poppins', sans-serif;
+	background-attachment: fixed;
+}
+
+
+header {
+	color: black;
+	padding: 60px;
+}
+
+header p {
+	color: #f0ad4e;
+	text-shadow: 1px 1px black;
+}
+
+h4, h5, h6 {
+	color: #f0ad4e;
+	text-shadow: 1px 1px black;
+	margin-left: 20px;
+}
+
+
+p {
+	color: #f0ad4e;
+	text-shadow: 1px 1px black;
+}
+
+article {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav {
+	padding: 60px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px)
